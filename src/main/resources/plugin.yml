@@ -1,0 +1,14 @@
+main: com.LucasRomier.BetterMobAI.MobAI
+version: ${project.version}
+name: BetterMobMechanics
+author: Optic_Fusion1
+api-version: 1.16
+
+commands:
+  BetterMobMechanics:
+    permission: BetterMobMechanics.reload
+  
+permissions:
+  BetterMobMechanics.reload:
+    description: Allows to reload the plugin
+    default: op
